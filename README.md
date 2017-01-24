@@ -1,3 +1,3 @@
-Первый личный проект
+Пробная верстка под битрикс
 
-https://archon77.github.io/pink/index.html
+https://archon77.github.io/Multipurpose/
