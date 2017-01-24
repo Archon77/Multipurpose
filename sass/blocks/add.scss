@@ -1,0 +1,7 @@
+.add {
+  margin-top: 30px;
+  text-align: center;
+  & img {
+    @include box-shadow();
+  }
+}

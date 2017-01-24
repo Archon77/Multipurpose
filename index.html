@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketSupply</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <script> // Picture element HTML5 shiv 
+    document.createElement( "picture" ); 
+    </script> 
+    <script type="text/javascript" src="img/js/jquery.min.js"></script>
+    <script src="img/js/picturefill.min.js" async></script>
+    <script type="text/javascript" src="img/js/tab-content.js"></script>
+  </head>
+  <body>
+ 
+  <div class="container">
+    <!-- header -->
+    <header class="page-header">
+      <div class="page-header__inner">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <div class="page-header__inner-inner"> <!-- да, я знаю что это пиздец. -->
+          <div class="auth">
+            <ul class="auth__menu">
+              <li class="auth__item">
+                <a href="" class="auth__link">My account</a>
+              </li>
+              <li class="auth__item">
+                <a href="" class="auth__link">Wishlist</a>
+              </li>
+              <li class="auth__item">
+                <a href="" class="auth__link">My Cart</a>
+              </li>
+              <li class="auth__item">
+                <a href="" class="auth__link">Checkout</a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-header__inner-inner-inner">  <!-- да, я знаю что теперь совсем пиздец. -->
+            <form action="">
+              <div class="search">
+                <input class="search__field" placeholder="Search here..." type="text"/>
+                <input class="search__button" type="submit" value=""/>
+              </div>
+            </form>
+            <div class="cart">
+              <div class="cart__img">
+                <img src="img/icon/cart.png" alt=""/>
+              </div>
+              <div class="cart__text">
+                <div class="cart__title">Total</div>
+                <div class="cart__total">$600.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-menu__wrapper">
+        <div class="main-menu">
+          <ul class="main-menu__list">                                                                          
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Clothing</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Electronics hot</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Health & Beauty</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Watches</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Jewellery</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="" class="main-menu__link">Shoes</a>
+            </li>
+          </ul>
+         </div>
+      </div>
+    </header>
+    <!-- /header --> 
+    <!-- main -->
+    <main class="page-main">
+      <div class="page-main__wrapper">
+        <div class="page-main__content" style="order: 2;">
+          <div class="tabs">
+            
+            <div class="tabs__content-wrapper">
+              <div class="tabs__content tabs__content--1" id="tabs__content--1">
+                <img class="tabs__img-bg" src="img/slide.png" alt=""/>
+                <img class="tabs__img-text" src="img/slide-text.png" alt=""/>
+                <a class="tabs__link" href="">Shop now</a>
+              </div>
+              <div class="tabs__content tabs__content--2" id="tabs__content--2">
+                <img src="img/http://placehold.it/834x376" />
+              </div>
+              <div class="tabs__content tabs__content--3" id="tabs__content--3">
+                <img src="img/http://placehold.it/834x376" />
+              </div>
+            </div>
+            <ul class="tabs__header">
+              <li>
+                <a class="tabs__switch tabs__switch--1 tabs__switch--active" href="#tabs__content--1">
+                  <h2>money back</h2>
+                  <span>30 Days Money Back Guarantee</span>
+                </a>
+              </li>
+              <li>
+                <a class="tabs__switch tabs__switch--2" href="#tabs__content--2">
+                  <h2>free shipping</h2>
+                  <span>Shipping on orders over $99</span>
+                </a>
+              </li>
+              <li>
+                <a class="tabs__switch tabs__switch--3" href="#tabs__content--3">
+                  <h2>Special Sale</h2>
+                  <span>Extra $5 off on all items</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="product">           
+              <div class="product__header">
+                <h3>New Products</h3>
+                <ul class="product__nav">		
+                  <li>
+                    <a href="">All</a>
+                  </li>
+                  <li>
+                    <a href="">Clothing</a>
+                  </li>
+                  <li>
+                    <a href="">Electronics</a>
+                  </li>
+                  <li>
+                    <a href="">Shoes</a>
+                  </li>
+                </ul>
+                <div class="product__arrows">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="product__item-wrapper">
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-14.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-11.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-16.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-21.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="sale">
+            <div class="sale__item">
+              <img class="sale__left" src="img/layer-13.jpg" alt=""/>
+              <img class="sale__right" src="img/layer-19.png" alt=""/>
+            </div>
+            <div class="sale__item">
+              <img class="sale__left" src="img/layer-18.jpg" alt=""/>
+              <img class="sale__right" src="img/layer-19.png" alt=""/>
+            </div>
+          </div>
+          <div class="product">           
+              <div class="product__header">
+                <h3>New Products</h3>
+                <ul class="product__nav">		
+                  <li>
+                    <a href="">All</a>
+                  </li>
+                  <li>
+                    <a href="">Clothing</a>
+                  </li>
+                  <li>
+                    <a href="">Electronics</a>
+                  </li>
+                  <li>
+                    <a href="">Shoes</a>
+                  </li>
+                </ul>
+                <div class="product__arrows">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="product__item-wrapper">
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-7.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-8.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-9.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item"> 
+                  <div class="product__img-wrapper">
+                    <img src="img/content/layer-10.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="promo">
+            <img src="img/layer-20.png" alt=""/>
+            <div class="promo__text">
+              <h3>Beautiful Laptop</h3>
+              <b>Retina Display 18” Ready !</b>
+              <a class="btn" href="">Shop now</a>
+            </div>
+          </div>
+         <div class="product">  
+              <div class="product__header">
+                <h3>New Products</h3>
+                <ul class="product__nav">		
+                  <li>
+                    <a href="">All</a>
+                  </li>
+                  <li>
+                    <a href="">Clothing</a>
+                  </li>
+                  <li>
+                    <a href="">Electronics</a>
+                  </li>
+                  <li>
+                    <a href="">Shoes</a>
+                  </li>
+                </ul>
+                <div class="product__arrows">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="product__item-wrapper product__item-wrapper--small">
+                <div class="product__item product__item--small"> 
+                 <!--  product__item--small на последнем блоке, возможно что-то ещё придётся переигрывать -->
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-22.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item product__item--small"> 
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-23.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item product__item--small"> 
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-27.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item product__item--small"> 
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-24.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item product__item--small"> 
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-26.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+                <div class="product__item product__item--small"> 
+                  <div class="product__img-wrapper product__img-wrapper--small">
+                    <img src="img/content/layer-28.jpg" alt="" class="product__img"/>
+                  </div>
+                  <div class="product__text">
+                    <h4>Lorem ipsum dolor</h4>
+                    <div class="product__price-wrapper">
+                      <span class="product__price product__price--old">$100.00</span>
+                      <span class="product__price">$90.00</span>
+                    </div>
+                    <img class="product__rating" src="img/icon/rating.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="page-main__sidebar" style="order: 1;">
+          <span class="sidebar-menu__title">Categories</span> 
+          <ul class="sidebar-menu">
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Clothing</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Electronics</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Shoes</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Watches</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Jewellery</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Health and Beauty</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Kids and Babies</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Sports</a>
+            </li>
+            <li class="sidebar-menu__item">
+              <a href="" class="sidebar-menu__link">Home and Garden</a>
+            </li>
+          </ul>
+          
+          <div class="product product--sidebar"> <!-- priduct - блок с товаром -->
+            <div class="product__header">
+              <h3>Hot deals</h3>
+              <div class="product__arrows">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="product__item"> <!-- product__item - "еденица товара" -->
+              <img src="img/content/layer-15.jpg" alt="" class="product__img"/>
+              <div class="product__text">
+                <h4>Lorem ipsum dolor</h4>
+                <div class="product__price-wrapper">
+                  <span class="product__price product__price--old">$100.00</span>
+                  <span class="product__price">$90.00</span>
+                </div>
+                <img class="product__rating" src="img/icon/rating.png" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="product product--sidebar">
+            <div class="product__header">
+              <h3>Special deal</h3>
+              <div class="product__arrows">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="product__item">
+              <img src="img/content/layer-17.jpg" alt="" class="product__img"/>
+              <div class="product__text">
+                <h4>Lorem ipsum dolor</h4>
+                <div class="product__price-wrapper">
+                  <span class="product__price product__price--old">$100.00</span>
+                  <span class="product__price">$90.00</span>
+                </div>
+                <img class="product__rating" src="img/icon/rating.png" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe">
+            <h3>Newsletters</h3>
+            <h4>Sign Up for Our Newsletter!</h4>
+            <form role="form" method="post" action="">
+              <input class="subscribe__field" type="email" name="SENDER_SUBSCRIBE_EMAIL">
+              <button class="btn" id="sub">Subscribe</button>
+            </form>
+          </div>
+          <div class="add">
+            <img src="img/add.jpg" alt=""/>
+          </div>
+        </div>
+      </div>
+      <div class="brand">
+        <div class="brand__img-wrapper">
+          <img class="brand__img" src="img/brand4.png" alt=""/>
+        </div>
+      </div>
+    </main>
+    <!-- /main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <div class="page-footer__top-wrapper">
+        <div class="page-footer__top">  
+          <div class="contact">
+            <img src="img/logo.png" alt=""/>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh velit it’s a cold world out there.</p>
+            <ul class="contact__information">
+              <li class="contact__item contact__item--address">0123  Main Road, Your City, NY 123456</li>
+              <li class="contact__item contact__item--phone">(000) 2345 - 6789</li>
+              <li class="contact__item contact__item--mail">info@psdfreebies.com</li>  
+            </ul>
+          </div>
+          <div class="page-footer__information">
+            <b class="page-footer__title">Information</b>
+            <ul>
+              <li><a href="">Our Story</a></li>
+              <li><a href="">Privacy & Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Shipping & Delivery</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="page-footer__social">
+            <b class="page-footer__title">Our Social</b>
+            <div class="page-footer__social-inner">
+              <ul>
+                <li><a href="">Google+</a></li>
+                <li><a href="">Pinterest</a></li>
+                <li><a href="">Vimeo</a></li>
+                <li><a href="">Instagram</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">RSS</a></li>
+                <li><a href="">YouTube</a></li>
+              </ul>
+            </div>   
+          </div>
+          <div class="page-footer__opening-wrapper">
+            <div class="page-footer__opening">
+              <b class="page-footer__title">Opening Time</b>
+              <span>Monday - Friday: 08:30 am - 09:30 pm
+              <br>Sat - Sun: 09:00 am - 10:00 pm</span>
+            </div>
+            <div class="page-footer__payment">
+              <b class="page-footer__title">Payment option</b>
+              <img src="img/icon/payment-1.png" alt=""/>
+              <img src="img/icon/payment-2.png" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__bottom-wrapper">    
+        <div class="page-footer__bottom">                                  
+          <ul class="page-footer__menu">
+            <li><a href="">Sitemap</a></li>
+            <li><a href="">Searchs</a></li>
+            <li><a href="">Searchs</a></li>
+            <li><a href="">Advance</a></li>
+            <li><a href="">Searchs</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+          <div class="page-footer__copyright">
+            <span>© 2016  PSDFreebies.com  |   All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+  </div>
+  </body>
+</html>

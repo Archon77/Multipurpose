@@ -1,0 +1,140 @@
+
+.page-footer__top-wrapper {
+  background-color: #222222;
+  color: #b6b6b6;
+  font-size: 14px;
+  padding: 25px 0;
+}
+
+.page-footer__top {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  & > div { //переделать!!!!11
+    width: 20%;
+  }
+}
+
+
+
+
+.page-footer__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.page-footer__social { 
+  display: flex;
+  flex-direction: column;
+} 
+
+.page-footer__social-inner {
+  display: flex;
+  & ul { // по идее это адский ад, но мне почему-то нравится :(
+    width: 40%;
+    
+    & li {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: -20px;
+        width: 12px;
+        height: 12px;
+        background-image: url(../img/icon/social-1.png);
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  
+  & ul:nth-of-type(1) {
+    & li:nth-of-type(2){
+      &:before {
+        background-position: 0 -30px;
+      }
+    }
+    & li:nth-of-type(3){
+      &:before {
+        background-position: 0 -60px;
+      }
+    }
+    & li:nth-of-type(4){
+      &:before {
+        background-position: 0 -90px;
+      }
+    }
+  }
+  & ul:nth-of-type(2) {
+    margin-left: 10%;
+    & li {
+      &:before {
+        background-image: url(../img/icon/social-2.png);
+      }
+    }
+    & li:nth-of-type(2){
+      &:before {
+        background-position: 0 -30px;
+      }
+    }
+    & li:nth-of-type(3){
+      &:before {
+        background-position: 0 -60px;
+      }
+    }
+    & li:nth-of-type(4){
+      &:before {
+        background-position: 0 -91px;
+      }
+    }
+  }
+} //не разворачивать!
+  
+.page-footer__payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  & img:nth-of-type(2) {
+    margin-top: 15px;
+  }
+}
+
+.page-footer__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  & ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+}
+
+.page-footer__bottom-wrapper {
+  background-color: #1f1e1e;
+}
+
+.page-footer__bottom {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-footer__menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+
+.page-footer__copyright {
+  padding: 15px 0;
+}

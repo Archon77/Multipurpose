@@ -1,0 +1,33 @@
+.contact {
+  width: 264px;
+  & img { // logo
+    margin: 0 auto 15px;
+    display: block;
+  }
+}
+
+.contact__item {
+  position: relative;
+  margin-top: 15px;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 14px;
+    height: 13px;
+    background-image: url(../img/icon/marker.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  &--phone {
+    &:before {
+      background-image: url(../img/icon/phone.png);
+    }
+  }
+  &--mail {
+    &:before {
+      background-image: url(../img/icon/mail.png);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.subscribe {
+  margin-top: 30px;
+  background-color: #ffffff;
+  @include box-shadow();
+  padding: 28px 22px 30px 25px;
+}
+
+.subscribe__field {
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: none;
+  padding: 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 20px;
+}

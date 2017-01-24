@@ -1,0 +1,20 @@
+.main-menu__wrapper {
+  background-color: #f10e34;
+}
+
+.main-menu {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main-menu__list {
+  background-color: #f10e34;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  padding: 20px 0;
+  width: 834px;
+  text-transform: uppercase;
+  margin-left: auto;
+}

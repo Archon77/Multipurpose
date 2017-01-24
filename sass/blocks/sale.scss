@@ -1,0 +1,13 @@
+.sale {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale__item {
+  @include box-shadow();
+}
+
+.sale__right {
+  margin-left: -100px;
+}

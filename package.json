@@ -1,0 +1,39 @@
+{
+  "name": "Multipurpose",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Обычный такой шаблон для начала проекта",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "0.1.x",
+    "autoprefixer": "6.5.3",
+    "css-mqpacker": "^5.0.1",
+    "grunt": "1.0.1",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-csscomb": "^3.1.1",
+    "grunt-csso": "^2.1.0",
+    "grunt-postcss": "0.8.0",
+    "grunt-sass": "1.2.1",
+    "grunt-svgmin": "^4.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "test": "editorconfig-cli",
+    "optimize": "grunt optimize",
+    "build": "grunt build",
+    "start": "npm run build && grunt serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "6.7"
+  }
+}

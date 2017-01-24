@@ -1,0 +1,16 @@
+.page-main {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-main__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-main__content {
+  width: 834px;
+}
